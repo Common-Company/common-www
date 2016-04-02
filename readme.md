@@ -14,7 +14,7 @@ List contents of S3 directory
 aws s3 ls s3://www.commonre.com --profile common
 ```
 
-Remove that thing you accidentally committed
+Remove that thing you accidentally uploaded
 ```
 aws s3 rm s3://www.commonre.com/documentation --recursive --profile common
 ```
